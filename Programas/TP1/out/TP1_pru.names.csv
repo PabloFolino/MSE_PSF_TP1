@@ -1,0 +1,215 @@
+psf/TP1_pru/out/TP1_pru.elf:10000068 00000001 b estado.16490
+psf/TP1_pru/out/TP1_pru.elf:1a000544 00000044 t Board_LED_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000588 00000040 t Board_TEC_Init
+psf/TP1_pru/out/TP1_pru.elf:1a0005c8 00000040 t Board_GPIO_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000608 00000030 t Board_ADC_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000638 00000038 t Board_SPI_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000670 00000024 t Board_I2C_Init
+psf/TP1_pru/out/TP1_pru.elf:1a001f68 00000008 t GpioButtons
+psf/TP1_pru/out/TP1_pru.elf:1a001f70 0000000c t GpioLeds
+psf/TP1_pru/out/TP1_pru.elf:1a001f7c 00000012 t GpioPorts
+psf/TP1_pru/out/TP1_pru.elf:1a001f94 00000004 t InitClkStates
+psf/TP1_pru/out/TP1_pru.elf:1a001f98 00000074 t pinmuxing
+psf/TP1_pru/out/TP1_pru.elf:10000024 00000038 d i2c
+psf/TP1_pru/out/TP1_pru.elf:1a00081c 0000002c t Chip_UART_GetIndex
+psf/TP1_pru/out/TP1_pru.elf:1a00200c 00000008 t UART_BClock
+psf/TP1_pru/out/TP1_pru.elf:1a002014 00000008 t UART_PClock
+psf/TP1_pru/out/TP1_pru.elf:1a0009b8 00000014 t Chip_ADC_GetClockIndex
+psf/TP1_pru/out/TP1_pru.elf:1a0009cc 00000032 t getClkDiv
+psf/TP1_pru/out/TP1_pru.elf:1a000b18 000000a0 t pll_calc_divs
+psf/TP1_pru/out/TP1_pru.elf:1a000bb8 0000010c t pll_get_frac
+psf/TP1_pru/out/TP1_pru.elf:1a000cc4 0000004c t Chip_Clock_FindBaseClock
+psf/TP1_pru/out/TP1_pru.elf:1a000f38 00000022 t Chip_Clock_GetDivRate
+psf/TP1_pru/out/TP1_pru.elf:1000006c 00000008 b audio_usb_pll_freq
+psf/TP1_pru/out/TP1_pru.elf:1a002028 0000006c t periph_to_base
+psf/TP1_pru/out/TP1_pru.elf:1a002094 00000048 t InitClkStates
+psf/TP1_pru/out/TP1_pru.elf:1a0012b4 00000014 t Chip_SSP_GetClockIndex
+psf/TP1_pru/out/TP1_pru.elf:1a0012c8 00000018 t Chip_SSP_GetPeriphClockIndex
+psf/TP1_pru/out/TP1_pru.elf:1000005c 00000004 d ClockSpeed
+psf/TP1_pru/out/TP1_pru.elf:1a0020dc 00000048 t lpcUarts
+psf/TP1_pru/out/TP1_pru.elf:10000074 00000004 b callBackFuncParams
+psf/TP1_pru/out/TP1_pru.elf:10000078 00000008 b tickCounter
+psf/TP1_pru/out/TP1_pru.elf:10000080 00000004 b tickHookFunction
+psf/TP1_pru/out/TP1_pru.elf:1a00155c 00000034 t gpioObtainPinInit
+psf/TP1_pru/out/TP1_pru.elf:10000084 00000004 b g_hUsb
+psf/TP1_pru/out/TP1_pru.elf:1a002210 t __init_array_end
+psf/TP1_pru/out/TP1_pru.elf:1a00220c b __preinit_array_end
+psf/TP1_pru/out/TP1_pru.elf:1a00220c t __init_array_start
+psf/TP1_pru/out/TP1_pru.elf:1a00220c b __preinit_array_start
+psf/TP1_pru/out/TP1_pru.elf:1a000d5c 0000001c T Chip_Clock_GetDividerSource
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a00147e 0000001c T uartWriteByteArray
+psf/TP1_pru/out/TP1_pru.elf:1a000184 00000002 W DebugMon_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W RIT_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a080000 A __top_MFlashA512
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000114 T __section_table_start
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W I2C0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0006e8 00000008 T __stdio_init
+psf/TP1_pru/out/TP1_pru.elf:1a00017a 00000002 W HardFault_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a000000 A __vectors_start__
+psf/TP1_pru/out/TP1_pru.elf:1a000ae0 0000000c T Chip_ADC_SetResolution
+psf/TP1_pru/out/TP1_pru.elf:1a001920 000000b4 T arm_min_q15
+psf/TP1_pru/out/TP1_pru.elf:1a001530 0000002c T SysTick_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a00089c 00000040 T Chip_UART_SetBaud
+psf/TP1_pru/out/TP1_pru.elf:1a0004b4 00000002 W initialise_monitor_handles
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SDIO_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000186 00000002 W PendSV_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a000178 00000002 W NMI_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a002218 R __exidx_end
+psf/TP1_pru/out/TP1_pru.elf:1a000150 T __data_section_table_end
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W I2C1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0012a0 00000010 T Chip_SCT_Init
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W UART1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W CAN1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:53ff73d6 A __valid_user_code_checksum
+psf/TP1_pru/out/TP1_pru.elf:1a002218 R _etext
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W USB1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W I2S0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000fda 0000000c T Chip_Clock_GetBaseClocktHz
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W UART0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001a8 00000012 T bss_init
+psf/TP1_pru/out/TP1_pru.elf:1a001a88 000000e0 T arm_sqrt_q15
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a001c08 T __aeabi_uldivmod
+psf/TP1_pru/out/TP1_pru.elf:10000194 ? _noinit
+psf/TP1_pru/out/TP1_pru.elf:1000018c 00000004 B SystemCoreClock
+psf/TP1_pru/out/TP1_pru.elf:1a000848 00000054 T Chip_UART_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000300 0000009c T ADC0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000a0c 00000018 T readAdcVal
+psf/TP1_pru/out/TP1_pru.elf:1a000180 00000002 W UsageFault_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a001058 0000004c T Chip_Clock_GetRate
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000728 0000006c T Board_SetupClocking
+psf/TP1_pru/out/TP1_pru.elf:20008000 A __top_RamAHB32
+psf/TP1_pru/out/TP1_pru.elf:1a001c38 000002d0 T __udivmoddi4
+psf/TP1_pru/out/TP1_pru.elf:1a001f64 00000004 T ExtRateIn
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W IntDefaultHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000300 T __CRP_WORD_END__
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SSP0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a002210 R __exidx_start
+psf/TP1_pru/out/TP1_pru.elf:1a0002fc 00000004 T CRP_WORD
+psf/TP1_pru/out/TP1_pru.elf:1a0009fe 0000000e T setStartMode
+psf/TP1_pru/out/TP1_pru.elf:1a001f0c 00000048 T __libc_init_array
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W ADC1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0006b8 00000030 T Board_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000542 00000002 W _init
+psf/TP1_pru/out/TP1_pru.elf:1a000114 T __data_section_table
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W RTC_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:10000194 B _ebss
+psf/TP1_pru/out/TP1_pru.elf:1a000aec 0000002a T Chip_ADC_EnableChannel
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0004b8 00000088 T Reset_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a0014b4 0000007c T tickInit
+psf/TP1_pru/out/TP1_pru.elf:20010000 A __top_RamAHB_ETB16
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SPI_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0010fc 0000004a T Chip_SCTPWM_SetRate
+psf/TP1_pru/out/TP1_pru.elf:1a0007e4 00000038 T Chip_I2C_SetClockRate
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W LCD_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000d10 0000004c T Chip_Clock_EnableCrystal
+psf/TP1_pru/out/TP1_pru.elf:1a000a64 00000008 T Chip_ADC_ReadValue
+psf/TP1_pru/out/TP1_pru.elf:10008000 A __top_RamLoc32
+psf/TP1_pru/out/TP1_pru.elf:1a00018a 0000001e T data_init
+psf/TP1_pru/out/TP1_pru.elf:1a000a8e 00000020 T Chip_ADC_SetStartMode
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0007c0 00000024 T Chip_I2C_Init
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W UART2_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000ecc 0000006c T Chip_Clock_GetMainPLLHz
+psf/TP1_pru/out/TP1_pru.elf:1a002124 000000e6 T gpioPinsInit
+psf/TP1_pru/out/TP1_pru.elf:1a001464 0000001a T uartWriteByte
+psf/TP1_pru/out/TP1_pru.elf:1a0012e0 00000012 T Chip_SSP_SetClockRate
+psf/TP1_pru/out/TP1_pru.elf:1a00180e 00000016 T gpioToggle
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000fb4 00000026 T Chip_Clock_GetBaseClock
+psf/TP1_pru/out/TP1_pru.elf:10000068 B _bss
+psf/TP1_pru/out/TP1_pru.elf:1a000aae 00000032 T Chip_ADC_SetSampleRate
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W I2S1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0012f2 0000003e T Chip_SSP_SetBitRate
+psf/TP1_pru/out/TP1_pru.elf:1a0012b0 00000002 T Chip_GPIO_Init
+psf/TP1_pru/out/TP1_pru.elf:1a001f90 00000004 T OscRateIn
+psf/TP1_pru/out/TP1_pru.elf:1a0013e8 0000007c T uartInit
+psf/TP1_pru/out/TP1_pru.elf:10000194 ? _end_noinit
+psf/TP1_pru/out/TP1_pru.elf:10008000 A _vStackTop
+psf/TP1_pru/out/TP1_pru.elf:10000088 00000100 B adc
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SSP1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000178 T __bss_section_table_end
+psf/TP1_pru/out/TP1_pru.elf:1a001590 000001ac T gpioInit
+psf/TP1_pru/out/TP1_pru.elf:1a001f08 00000002 W __aeabi_ldiv0
+psf/TP1_pru/out/TP1_pru.elf:1a0018b4 0000006a T arm_rms_q15
+psf/TP1_pru/out/TP1_pru.elf:1a001824 0000001c T USB0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0019d4 000000b4 T arm_max_q15
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SCT_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000d78 0000001c T Chip_Clock_GetDividerDivisor
+psf/TP1_pru/out/TP1_pru.elf:10000188 00000002 B index
+psf/TP1_pru/out/TP1_pru.elf:1a0002fc T __CRP_WORD_START__
+psf/TP1_pru/out/TP1_pru.elf:1a001f54 00000010 T memset
+psf/TP1_pru/out/TP1_pru.elf:1a00017c 00000002 W MemManage_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a00040c 000000a8 T main
+psf/TP1_pru/out/TP1_pru.elf:1a0003d4 00000036 T sct_init
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W WDT_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:2000c000 A __top_RamAHB16
+psf/TP1_pru/out/TP1_pru.elf:1008a000 A __top_RamLoc40
+psf/TP1_pru/out/TP1_pru.elf:1a000182 00000002 W SVC_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a0013bc 00000018 T uartTxReady
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000fe8 0000003c T Chip_Clock_EnableOpts
+psf/TP1_pru/out/TP1_pru.elf:1a000d94 000000b8 T Chip_Clock_GetClockInputHz
+psf/TP1_pru/out/TP1_pru.elf:1a000e4c 00000080 T Chip_Clock_CalcMainPLLValue
+psf/TP1_pru/out/TP1_pru.elf:1a001368 00000038 T SystemInit
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W QEI_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000150 T __bss_section_table
+psf/TP1_pru/out/TP1_pru.elf:1a00173c 0000006a T gpioWrite
+psf/TP1_pru/out/TP1_pru.elf:1a000540 00000002 W _fini
+psf/TP1_pru/out/TP1_pru.elf:1a000a24 00000040 T Chip_ADC_Init
+psf/TP1_pru/out/TP1_pru.elf:10000190 00000004 B g_pUsbApi
+psf/TP1_pru/out/TP1_pru.elf:1a0006f0 00000038 T Board_SetupMuxing
+psf/TP1_pru/out/TP1_pru.elf:1a0008dc 000000dc T Chip_UART_SetBaudFDR
+psf/TP1_pru/out/TP1_pru.elf:10000060 00000008 D tickRateMS
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W ETH_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a00039c 00000038 T adc_init
+psf/TP1_pru/out/TP1_pru.elf:10000000 ? _end_uninit_RESERVED
+psf/TP1_pru/out/TP1_pru.elf:1a0013d4 00000014 T uartTxWrite
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W CAN0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:10000000 D _data
+psf/TP1_pru/out/TP1_pru.elf:10000000 00000022 D header
+psf/TP1_pru/out/TP1_pru.elf:10000194 B _pvHeapStart
+psf/TP1_pru/out/TP1_pru.elf:1a000178 T __section_table_end
+psf/TP1_pru/out/TP1_pru.elf:1a001330 00000038 T Chip_SSP_Init
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GINT0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W DAC_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000694 00000024 T Board_Debug_Init
+psf/TP1_pru/out/TP1_pru.elf:1a000a6c 00000022 T Chip_ADC_Int_SetChannelCmd
+psf/TP1_pru/out/TP1_pru.elf:10000068 D _edata
+psf/TP1_pru/out/TP1_pru.elf:1a0007a0 00000020 T Chip_I2C_EventHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0010b8 00000044 T Chip_SCTPWM_SetOutPin
+psf/TP1_pru/out/TP1_pru.elf:1a001148 00000158 T Chip_SetupCoreClock
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000000 00000040 T g_pfnVectors
+psf/TP1_pru/out/TP1_pru.elf:1a0010a4 00000014 T SystemCoreClockUpdate
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W DMA_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W EVRT_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1b080000 A __top_MFlashB512
+psf/TP1_pru/out/TP1_pru.elf:1a001f08 00000002 W __aeabi_idiv0
+psf/TP1_pru/out/TP1_pru.elf:1a00017e 00000002 W BusFault_Handler
+psf/TP1_pru/out/TP1_pru.elf:1a001024 00000034 T Chip_Clock_Enable
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W UART3_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W M0APP_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a0017a6 00000068 T gpioRead
+psf/TP1_pru/out/TP1_pru.elf:1a001840 00000074 T boardInit
+psf/TP1_pru/out/TP1_pru.elf:1a000040 000000d4 T g_pfnVendorVectors
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GINT1_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a001b68 T __aeabi_ldivmod
+psf/TP1_pru/out/TP1_pru.elf:1a00149c 00000018 T tickPowerSet
+psf/TP1_pru/out/TP1_pru.elf:1a000f5c 00000058 T Chip_Clock_SetBaseClock
+psf/TP1_pru/out/TP1_pru.elf:1a0013a0 0000001c T cyclesCounterInit
+psf/TP1_pru/out/TP1_pru.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+psf/TP1_pru/out/TP1_pru.elf:1a000794 0000000c T Board_SystemInit
